@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">تقرير المدينة</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_create">إنشاء</string>
+    <string name="nav_map">الخريطة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">تقرير المدينة</string>
+    <string name="home_search_hint">البحث عن التقارير…</string>
+    <string name="home_filter_all">جميع الفئات</string>
+    <string name="home_empty_title">لا توجد تقارير بعد</string>
+    <string name="home_empty_subtitle">أنشئ تقريرك الأول للبدء</string>
+    <string name="home_loading">جاري تحميل التقارير…</string>
+
+    <!-- Create Report Screen -->
+    <string name="create_title">إنشاء تقرير</string>
+    <string name="create_report_title">العنوان</string>
+    <string name="create_report_title_hint">عنوان مختصر</string>
+    <string name="create_report_description">الوصف</string>
+    <string name="create_report_description_hint">صف المشكلة</string>
+    <string name="create_category">الفئة</string>
+    <string name="create_photo">صورة</string>
+    <string name="create_take_photo">الكاميرا</string>
+    <string name="create_choose_photo">المعرض</string>
+    <string name="create_photo_selected">تم تحديد الصورة</string>
+    <string name="create_location">الموقع</string>
+    <string name="create_use_gps">استخدام موقعي</string>
+    <string name="create_location_selected" formatted="false">الموقع: خط العرض %.5f، خط الطول %.5f</string>
+    <string name="create_save">حفظ التقرير</string>
+    <string name="create_saving">جاري الحفظ…</string>
+
+    <!-- Validation Errors -->
+    <string name="error_title_required">العنوان مطلوب</string>
+    <string name="error_description_required">الوصف مطلوب</string>
+    <string name="error_location_required">الموقع مطلوب</string>
+    <string name="error_save_failed">فشل الحفظ: %s</string>
+
+    <!-- Categories -->
+    <string name="category_cleanliness">النظافة</string>
+    <string name="category_road">الطريق</string>
+    <string name="category_lighting">الإضاءة</string>
+    <string name="category_safety">الأمان</string>
+    <string name="category_other">أخرى</string>
+
+    <!-- Sync Status -->
+    <string name="sync_pending">قيد الانتظار</string>
+    <string name="sync_synced">مزامن</string>
+    <string name="sync_failed">فشل</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">تفاصيل التقرير</string>
+    <string name="details_category">الفئة:</string>
+    <string name="details_date">التاريخ:</string>
+    <string name="details_location">الموقع:</string>
+    <string name="details_status">الحالة:</string>
+    <string name="details_retry_sync">إعادة المزامنة</string>
+    <string name="details_syncing">جاري المزامنة…</string>
+    <string name="details_edit">تعديل</string>
+    <string name="details_delete">حذف</string>
+    <string name="details_delete_confirm_title">حذف التقرير</string>
+    <string name="details_delete_confirm_message">هل أنت متأكد من حذف هذا التقرير؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="action_confirm">تأكيد</string>
+
+    <!-- Edit Report Screen -->
+    <string name="edit_title">تعديل التقرير</string>
+    <string name="edit_save">حفظ التعديلات</string>
+    <string name="edit_saving">جاري الحفظ…</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">خريطة التقارير</string>
+    <string name="map_legend">وسيلة الإيضاح:</string>
+    <string name="map_empty">لا توجد تقارير لعرضها</string>
+    <string name="map_view_details">عرض التفاصيل</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_language_subtitle">اختر لغتك المفضلة</string>
+    <string name="settings_about">حول</string>
+    <string name="settings_app_name">اسم التطبيق:</string>
+    <string name="settings_version">الإصدار:</string>
+    <string name="settings_developer">المطور:</string>
+    <string name="settings_developer_value">مشروع أكاديمي</string>
+    <string name="settings_description">تطبيق للإبلاغ عن الحوادث الحضرية</string>
+    <string name="settings_sync">المزامنة</string>
+    <string name="settings_sync_subtitle">مزامنة التقارير المعلقة يدوياً مع الخادم.</string>
+    <string name="settings_sync_now">مزامنة الآن</string>
+    <string name="settings_syncing">جاري المزامنة…</string>
+    <string name="settings_sync_success">نجحت المزامنة</string>
+    <string name="settings_sync_failed">فشلت المزامنة</string>
+
+    <!-- Languages -->
+    <string name="lang_french">Français</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+
+    <!-- Common -->
+    <string name="action_back">رجوع</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="error">خطأ</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">City Report</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_create">Créer</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">City Report</string>
+    <string name="home_search_hint">Rechercher des rapports…</string>
+    <string name="home_filter_all">Toutes les catégories</string>
+    <string name="home_empty_title">Aucun rapport pour le moment</string>
+    <string name="home_empty_subtitle">Créez votre premier rapport pour commencer</string>
+    <string name="home_loading">Chargement des rapports…</string>
+
+    <!-- Create Report Screen -->
+    <string name="create_title">Créer un rapport</string>
+    <string name="create_report_title">Titre</string>
+    <string name="create_report_title_hint">Titre bref</string>
+    <string name="create_report_description">Description</string>
+    <string name="create_report_description_hint">Décrivez le problème</string>
+    <string name="create_category">Catégorie</string>
+    <string name="create_photo">Photo</string>
+    <string name="create_take_photo">Appareil photo</string>
+    <string name="create_choose_photo">Galerie</string>
+    <string name="create_photo_selected">Photo sélectionnée</string>
+    <string name="create_location">Localisation</string>
+    <string name="create_use_gps">Utiliser ma position</string>
+    <string name="create_location_selected" formatted="false">Position : Lat %.5f, Lng %.5f</string>
+    <string name="create_save">Enregistrer le rapport</string>
+    <string name="create_saving">Enregistrement…</string>
+
+    <!-- Validation Errors -->
+    <string name="error_title_required">Le titre est obligatoire</string>
+    <string name="error_description_required">La description est obligatoire</string>
+    <string name="error_location_required">La localisation est obligatoire</string>
+    <string name="error_save_failed">Échec de l\'enregistrement : %s</string>
+
+    <!-- Categories -->
+    <string name="category_cleanliness">Propreté</string>
+    <string name="category_road">Voirie</string>
+    <string name="category_lighting">Éclairage</string>
+    <string name="category_safety">Sécurité</string>
+    <string name="category_other">Autre</string>
+
+    <!-- Sync Status -->
+    <string name="sync_pending">En attente</string>
+    <string name="sync_synced">Synchronisé</string>
+    <string name="sync_failed">Échec</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">Détails du rapport</string>
+    <string name="details_category">Catégorie :</string>
+    <string name="details_date">Date :</string>
+    <string name="details_location">Localisation :</string>
+    <string name="details_status">Statut :</string>
+    <string name="details_retry_sync">Réessayer la synchro</string>
+    <string name="details_syncing">Synchronisation…</string>
+    <string name="details_edit">Modifier</string>
+    <string name="details_delete">Supprimer</string>
+    <string name="details_delete_confirm_title">Supprimer le rapport</string>
+    <string name="details_delete_confirm_message">Êtes-vous sûr de vouloir supprimer ce rapport ? Cette action est irréversible.</string>
+    <string name="action_confirm">Confirmer</string>
+
+    <!-- Edit Report Screen -->
+    <string name="edit_title">Modifier le rapport</string>
+    <string name="edit_save">Enregistrer les modifications</string>
+    <string name="edit_saving">Enregistrement…</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Carte des rapports</string>
+    <string name="map_legend">Légende :</string>
+    <string name="map_empty">Aucun rapport à afficher</string>
+    <string name="map_view_details">Voir les détails</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_language">Langue de l\'application</string>
+    <string name="settings_language_subtitle">Sélectionnez votre langue préférée</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_app_name">Nom de l\'app :</string>
+    <string name="settings_version">Version :</string>
+    <string name="settings_developer">Développeur :</string>
+    <string name="settings_developer_value">Projet Académique</string>
+    <string name="settings_description">Application de signalement d\'incidents urbains</string>
+    <string name="settings_sync">Synchronisation</string>
+    <string name="settings_sync_subtitle">Synchroniser manuellement les rapports en attente avec le serveur.</string>
+    <string name="settings_sync_now">Synchroniser maintenant</string>
+    <string name="settings_syncing">Synchronisation…</string>
+    <string name="settings_sync_success">Synchronisation réussie</string>
+    <string name="settings_sync_failed">Échec de la synchronisation</string>
+
+    <!-- Languages -->
+    <string name="lang_french">Français</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+
+    <!-- Common -->
+    <string name="action_back">Retour</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_retry">Réessayer</string>
+    <string name="loading">Chargement…</string>
+    <string name="error">Erreur</string>
+</resources>
